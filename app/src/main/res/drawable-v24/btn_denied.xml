@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="@dimen/dimen_160"
+        android:height="@dimen/dimen_160">
+        <shape>
+            <solid android:color="@color/red" />
+            <corners android:radius="@dimen/dimen_160" />
+        </shape>
+    </item>
+
+    <item
+        android:width="@dimen/dimen_3x"
+        android:height="@dimen/dimen_3x"
+        android:drawable="@drawable/ic_close"
+        android:gravity="center" />
+
+</layer-list>

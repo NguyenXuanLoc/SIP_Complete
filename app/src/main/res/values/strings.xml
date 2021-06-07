@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Lit match.</string>
+    <string name="default_notification_channel_id">notification_channel_id_vicall</string>
+    <string name="no_email_client">There are no email clients installed.</string>
+    <string name="no_email">No email found</string>
+    <string name="feedback">Phản hồi/Góp ý</string>
+    <string name="invite_friend">Mời bạn bè</string>
+    <string name="ok">OK</string>
+    <string name="no">Không</string>
+    <string name="cancel">Hủy</string>
+    <string name="close">Đóng</string>
+    <string name="connect_network">Kết nối cộng đồng</string>
+    <string name="user_name">User name</string>
+    <string name="domain">Domain</string>
+
+    <string name="email">Email</string>
+    <string name="pass">Pass</string>
+    <string name="confirm_pass">Confirm pass</string>
+    <string name="login">Login</string>
+    <string name="new_user">You are newbie, register now !!</string>
+    <string name="asterisk_symbol">\u2217</string>
+    <string name="shark_symbol">#</string>
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="input_phone">Input phone number</string>
+    <string name="login_success">Login success !!!</string>
+    <string name="login_fails">Wrong infomation, please try again !!!</string>
+    <string name="miss_info">Information cannot be left blank, Please try again !!</string>
+    <string name="contact">Contact</string>
+    <string name="add_call">Add call</string>
+    <string name="note">Note</string>
+    <string name="mute">Mute</string>
+    <string name="hold">Hold</string>
+    <string name="record">Record</string>
+    <string name="answer">ANSWER</string>
+    <string name="allow">Allow</string>
+    <string name="denied">Denied</string>
+    <string name="input_phone_number">You must input phone number.</string>
+</resources>

@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="@dimen/dimen_160"
+        android:height="@dimen/dimen_160">
+        <shape>
+            <solid android:color="@color/red" />
+            <corners android:radius="@dimen/dimen_160" />
+        </shape>
+    </item>
+
+    <item
+        android:width="64dp"
+        android:height="64dp"
+        android:gravity="center">
+      <rotate
+          android:drawable="@drawable/ic_call"
+          android:duration="0"
+          android:fromDegrees="136"
+          android:pivotX="50%"
+          android:pivotY="50%"
+          android:startOffset="0"
+          android:toDegrees="45" />
+    </item>
+</layer-list>
