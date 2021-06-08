@@ -3,23 +3,34 @@ package com.example.sip_complete.model;
 public class AccountInfoModel {
     private String acc_id;
     private String registrar;
+    private String domain;
     private String proxy;
     private String username;
     private String password;
 
-    public AccountInfoModel(String acc_id, String registrar, String username, String password) {
+    public AccountInfoModel(String acc_id, String registrar, String domain, String username, String password) {
         this.acc_id = acc_id;
         this.registrar = registrar;
+        this.domain = domain;
         this.username = username;
         this.password = password;
     }
 
-    public AccountInfoModel(String acc_id, String registrar, String proxy, String username, String password) {
+    public AccountInfoModel(String acc_id, String registrar, String domain, String proxy, String username, String password) {
         this.acc_id = acc_id;
         this.registrar = registrar;
+        this.domain = domain;
         this.proxy = proxy;
         this.username = username;
         this.password = password;
+    }
+
+    public String getDomain() {
+        return domain;
+    }
+
+    public void setDomain(String domain) {
+        this.domain = domain;
     }
 
     public String getAcc_id() {

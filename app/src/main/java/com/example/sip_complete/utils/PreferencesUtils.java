@@ -1,6 +1,7 @@
 package com.example.sip_complete.utils;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.example.sip_complete.model.AccountInfoModel;
 
@@ -8,6 +9,7 @@ public class PreferencesUtils {
     public static String PREF_ACCOUNT_INFO = "PREF_ACCOUNT_INFO";
 
     public static void saveAccountInfo(AccountInfoModel model, Context context) {
+        Log.e("TAG", "saveAcc");
         PreferencesHelper.getInstance(context).putObject(PREF_ACCOUNT_INFO, model);
     }
 

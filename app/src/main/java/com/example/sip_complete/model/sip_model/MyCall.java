@@ -41,7 +41,7 @@ public class MyCall extends Call {
     public VideoWindow vidWin;
     public VideoPreview vidPrev;
 
-    MyCall(MyAccount acc, int call_id) {
+    public MyCall(MyAccount acc, int call_id) {
         super(acc, call_id);
         vidWin = null;
     }
